@@ -12,7 +12,7 @@ export default function Login() {
     console.log({ ...userCredentials.user });
 
     firebase
-      .firestore()
+      .Firestore()
       .collection("users")
       .doc(userCredentials.user.uid)
       .set({
