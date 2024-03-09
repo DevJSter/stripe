@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from "react";
 import Login from "../components/Login";
 // import styles from "../styles/Home.module.css";
